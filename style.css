@@ -4,6 +4,10 @@
                                    font-family: 'IBM Plex Serif', serif; */
 }
 
+body{
+    background: black;
+}
+
 header{
     max-width: 100%;
     height: 75px;
@@ -47,6 +51,7 @@ li{
  ul a:hover{
     color: black;
     background:white;
+    border:1px solid white;
     
 }
 
@@ -66,7 +71,8 @@ li{
 
 
 #main{
-    background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA 50%, #1FA2FF 100%);
+    /* background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA 50%, #1FA2FF 100%); */
+     background: rgb(0, 0, 0); 
 max-height: 100%;
     max-width: 100%;
     display: flex;
@@ -74,6 +80,7 @@ max-height: 100%;
     align-items: center;
     justify-content: center;
     padding: 20px;
+    color: white;
 }
 
 .heading{
@@ -158,7 +165,77 @@ margin-top: 30px;
 }
 
 .btn:hover{
-    color: white;
+    color: rgb(255, 255, 255);
     background:black;
     
+}
+
+/* skills section */
+
+.skill-head{
+    text-align: center;
+    max-width: 100%;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 15px 15px;
+    color: white;
+}
+
+.mainskills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    padding: 20px;
+    flex-wrap: wrap;
+
+}
+
+.skill-box{
+    border-radius: 20px;
+   height: 400px;
+    width: 350px;
+    margin: 20px;
+    padding:20px;
+    border: 0.5px solid rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgb(23 43 99 / 30%) 0 6px 18px;
+}
+
+.html-btn{
+    padding: 15px 30px;
+    border-radius: 10px;
+    transition: 0.5s ease;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.html-btn:hover{
+    color: rgb(255, 255, 255);
+    background:black;
+    border:1px solid white;
+
+}
+
+.skill-para{
+    text-align: justify;
+    text-justify: auto;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'IBM Plex Serif', serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.skill-box h3{
+    margin-top: 5px;
+    color: white;
+}
+
+.skill-img{
+    margin-bottom: 10px;
 }
