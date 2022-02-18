@@ -52,7 +52,6 @@ ul a {
 ul a:hover {
   color: black;
   background: white;
-  border: 1px solid white;
 
 }
 
@@ -95,7 +94,7 @@ ul a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+
 }
 
 .content {
@@ -219,6 +218,7 @@ ul a:hover {
 }
 
 .skill-para {
+  text-transform: capitalize;
   text-align: justify;
   text-justify: auto;
   color: white;
@@ -325,4 +325,22 @@ textarea {
   font-family: 'Ubuntu', sans-serif;
   color: white;
   text-align: center;
+}
+
+/* menu baar */
+
+
+
+.menu-button i{
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+  margin-right: 30px;
+  display: none;
+}
+
+
+
+input[type="checkbox"]{
+  display: none;
 }
