@@ -1,0 +1,68 @@
+@media(max-width:621px){
+    ul{
+        display: none;
+    }
+
+    #profile{
+        height: 300px;
+        width: 300px;
+        border:2px solid white;
+        border-radius:50%;
+    }
+
+    .skill-para{
+        font-size: 18px;
+    }
+
+    .bio-p p{
+        font-size: 20px;
+    }
+
+    .skill-head{
+        font-size: 30px;
+    }
+
+
+}
+
+@media(max-width:1141px){
+.contact-left{
+margin-right: 0;
+}
+
+}
+
+@media(max-width:907px){
+
+    form input{
+        width: 300px;
+   }
+   
+   .textarea{
+       height: 240px;
+       width: 300px;
+   }
+}    
+
+
+@media(max-width:540px){
+    .btn{
+        font-size: 20px;
+        padding: 20px 30px;
+    }
+
+    }
+
+
+    @media(max-width:482px){
+        #btn1{
+            font-size: 20px;
+            padding: 20px 40px;
+        }
+
+        .btn-sec{
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    
