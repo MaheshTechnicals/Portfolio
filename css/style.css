@@ -162,6 +162,7 @@ ul a:hover {
 }
 
 .btn:hover {
+  border: 1px solid white;
   color: rgb(255, 255, 255);
   background: black;
 
