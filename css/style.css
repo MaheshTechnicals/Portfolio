@@ -5,24 +5,42 @@
                                    font-family: 'IBM Plex Serif', serif; */
 }
 
+
+:root {
+  --back: black;
+  --txt: white;
+}
+
+.lite {
+  --back: white;
+  --txt: black;
+}
+
+#mt {
+  width: 30px;
+  margin-right: 20px;
+  padding: 3px;
+  border: 2px solid blue;
+}
+
+
 body {
-  background: black;
+  background: var(--back);
 }
 
 header {
- position: fixed;
+  position: fixed;
   top: 0;
   width: 100%;
   max-width: 100%;
   height: 80px;
-  background-color: black;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 #logo {
-  color: white;
+  color: var(--txt);
   font-size: 25px;
   text-decoration: none;
   margin-left: 25px;
@@ -33,6 +51,7 @@ header {
 
 ul {
   display: flex;
+
 }
 
 li {
@@ -41,7 +60,7 @@ li {
 
 ul a {
   text-decoration: none;
-  color: white;
+  color: var(--txt);
   margin-right: 40px;
   padding: 10px 20px;
   font-size: 20px;
@@ -53,8 +72,8 @@ ul a {
 }
 
 ul a:hover {
-  color: black;
-  background: white;
+  color: var(--back);
+  background: var(--txt);
 
 }
 
@@ -68,7 +87,7 @@ ul a:hover {
 
 #main {
   /* background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA 50%, #1FA2FF 100%); */
-  background: rgb(0, 0, 0);
+  background: var(--back);
   max-height: 100%;
   max-width: 100%;
   flex-wrap: wrap;
@@ -77,7 +96,7 @@ ul a:hover {
   align-items: center;
   justify-content: center;
   padding: 20px;
-  color: white;
+  color: var(--txt);
 }
 
 .heading {
@@ -153,8 +172,8 @@ ul a:hover {
   text-decoration: none;
   font-size: 22px;
   padding: 20px 40px;
-  background-color: white;
-  color: black;
+  background-color: var(--txt);
+  color: var(--back);
   border: 1px solid black;
   border-radius: 10px;
   margin: 20px;
@@ -167,7 +186,7 @@ ul a:hover {
 .btn:hover {
   border: 1px solid white;
   color: rgb(255, 255, 255);
-  background: black;
+  background: var(--back);
 
 }
 
@@ -179,7 +198,7 @@ ul a:hover {
   font-weight: bold;
   font-size: 40px;
   padding: 15px 15px;
-  color: white;
+  color: var(--txt);
 }
 
 .mainskills {
@@ -215,8 +234,8 @@ ul a:hover {
 }
 
 .html-btn:hover {
-  color: rgb(255, 255, 255);
-  background: black;
+  color: var(--txt);
+  background: var(--back);
   border: 1px solid white;
 
 }
@@ -225,7 +244,7 @@ ul a:hover {
   text-transform: capitalize;
   text-align: justify;
   text-justify: auto;
-  color: white;
+  color: var(--txt);
   margin-top: 20px;
   margin-bottom: 20px;
   font-family: 'Baloo Bhai 2', cursive;
@@ -235,7 +254,7 @@ ul a:hover {
 
 .skill-box h3 {
   margin-top: 5px;
-  color: white;
+  color: var(--txt);
 }
 
 .skill-img {
@@ -296,7 +315,7 @@ form input {
 .submit {
   font-size: 25px;
   background-color: green;
-  color: white;
+  color: var(--txt);
   border: 1px solid black;
   border-radius: 10px;
   margin: 20px;
@@ -307,8 +326,8 @@ form input {
 }
 
 .submit:hover {
-  color: black;
-  background: white;
+  color: var(--back);
+  background: var(--txt);
 
 }
 
@@ -323,11 +342,11 @@ textarea {
   max-height: 100%;
   max-width: 100%;
   padding: 20px;
-  background-color: rgb(46, 165, 245);
+  background-color: var(--back);
   font-family: 'Baloo Bhai 2', cursive;
   font-family: 'IBM Plex Serif', serif;
   font-family: 'Ubuntu', sans-serif;
-  color: white;
+  color: var(--txt);
   text-align: center;
 }
 
@@ -335,8 +354,8 @@ textarea {
 
 
 
-.menu-button i{
-  color: #fff;
+.menu-button i {
+  color: var(--txt);
   font-size: 22px;
   cursor: pointer;
   margin-right: 30px;
@@ -345,6 +364,6 @@ textarea {
 
 
 
-input[type="checkbox"]{
+input[type="checkbox"] {
   display: none;
 }
