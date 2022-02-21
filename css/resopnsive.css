@@ -1,74 +1,72 @@
-@media(max-width:621px){
-    ul{
-        display: none;
-    }
+@media(max-width:621px) {
+  ul {
+    display: none;
+  }
 
 
 
-    #profile{
-        height: 200px;
-        width: 200px;
-        border:2px solid white;
-        border-radius:50%;
-    }
+  #profile {
+    height: 200px;
+    width: 200px;
+    border: 2px solid var(--txt);
+    border-radius: 50%;
+  }
 
-    .skill-para{
-        font-size: 18px;
-    }
+  .skill-para {
+    font-size: 18px;
+  }
 
-    .bio-p p{
-        font-size: 20px;
-    }
+  .bio-p p {
+    font-size: 20px;
+  }
 
-    .skill-head{
-        font-size: 30px;
-    }
+  .skill-head {
+    font-size: 30px;
+  }
 
 
 }
 
-@media(max-width:1141px){
-.contact-left{
-margin-right: 0;
-}
+@media(max-width:1141px) {
+  .contact-left {
+    margin-right: 0;
+  }
 
 }
 
-@media(max-width:907px){
+@media(max-width:907px) {
 
-    form input{
-        width: 300px;
-   }
-   
-   .textarea{
-       height: 240px;
-       width: 300px;
-   }
-}    
+  form input {
+    width: 300px;
+  }
 
-
-@media(max-width:540px){
-    .btn{
-        font-size: 20px;
-        padding: 20px 30px;
-    }
-
-    }
+  .textarea {
+    height: 240px;
+    width: 300px;
+  }
+}
 
 
-    @media(max-width:482px){
-        #btn1{
-            font-size: 20px;
-            padding: 20px 40px;
-        }
+@media(max-width:540px) {
+  .btn {
+    font-size: 20px;
+    padding: 20px 30px;
+  }
 
-        .btn-sec{
-            align-items: center;
-            justify-content: center;
-        }
-    }
-    
+}
 
+
+@media(max-width:482px) {
+  #btn1 {
+    font-size: 20px;
+    padding: 20px 40px;
+  }
+
+  .btn-sec {
+    align-items: center;
+    justify-content: center;
+  }
+}
 
 
 
@@ -78,73 +76,71 @@ margin-right: 0;
 
 
 
-    
-      @media (max-width: 620px) {
-        .menu-button i{
-          display: block;
-        }
-        
-        #click:checked ~ .menu-button i:before{
-          content: "\f00d";
-        }
-      
-       ul{
-          position: fixed;
-          top: 80px;
-          left: -100%;
-          background: #000000;
-          height: 100vh;
-          width: 100%;
-          text-align: center;
-          display: block;
-          transition: all 0.3s ease;
-        }
-      
-        #click:checked ~ ul{
-          left: 0;
-        }
-      
-        ul li{
-          width: 100%;
-          margin: 40px 0;
-        }
-      
-       ul li a{
-          width: 100%;
-          margin-left: -100%;
-          display: inline;
-          font-size: 23px;
-          transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-        }
-      
-        #click:checked ~ ul li a{
-          margin-left: 0px;
-        }
-      
-      ul li a:hover{
-        
-          color:rgb(0, 0, 0);
-          background-color: rgb(255, 255, 255);
-          border-radius: 10px;
-        }
-      
-      }
+@media (max-width: 620px) {
+  .menu-button i {
+    display: block;
+  }
+
+  #click:checked~.menu-button i:before {
+    content: "\f00d";
+  }
+
+  ul {
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    background: var(--back);
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: block;
+    transition: all 0.3s ease;
+  }
+
+  #click:checked~ul {
+    left: 0;
+  }
+
+  ul li {
+    width: 100%;
+    margin: 40px 0;
+  }
+
+  ul li a {
+    width: 100%;
+    margin-left: -100%;
+    display: inline;
+    font-size: 23px;
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  #click:checked~ul li a {
+    margin-left: 0px;
+  }
+
+  ul li a:hover {
+
+    color: var(--back);
+    background-color: var(--txt);
+    border-radius: 10px;
+  }
+
+}
 
 
-      
-      @media (max-width: 457px) {
-       .heading h1{
-           font-size: 27px;
-       }
-    }
-      
+
+@media (max-width: 457px) {
+  .heading h1 {
+    font-size: 27px;
+  }
+}
 
 
-      
-      @media (max-width: 411px) {
-     
-        .skill-box{
-          height: 450px;
-        }
-    }
-      
+
+
+@media (max-width: 411px) {
+
+  .skill-box {
+    height: 450px;
+  }
+}
